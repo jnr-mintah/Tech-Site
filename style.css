@@ -12,7 +12,7 @@
 
 .parent{
     width: 100%;
-    height: 100rem;
+    height: 166rem;
     background-color: lightskyblue;
 }
 
@@ -294,7 +294,7 @@ li{
     border-radius: 10px;
     /* border: 2px solid red; */
     position: relative;
-    background-color: orangered;
+    background-color: white;
     top: 1rem;
     left: 0.7rem;
     margin-top: 1rem;
@@ -317,7 +317,183 @@ li{
 
 .third-section{
     width: 100%;
-    height: 40rem;
-    background-color: red;
+    height: 49rem;
+    background-color: rgb(199, 233, 245);
 }
 
+.services{
+    width: 85%;
+    height: 9rem;
+    /* border: 2px solid blue; */
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3rem;
+}
+
+.services-card{
+    width: 85%;
+    height: 17rem;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+
+
+.card{
+    width: 18rem;
+    height: 17rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.card-space{
+    width: 32%;
+    height: 100%;
+    border: 2px solid burlywood;
+}
+
+
+
+.card-text{
+    position: absolute;
+    bottom: 4rem;
+    /* z-index: 2; */
+    margin-left: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.forth-sector{
+    width: 100%;
+    height: 37rem;
+    /* border: 2px solid red; */
+    background: url(32f9485364e3258a5e21471f74b4f1cc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+}
+
+.always{
+    width: 85%;
+    height: 6rem;
+    border: 2px solid;
+
+}
+
+.project-div{
+    width: 85%;
+    height: 11rem;
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.project-cards{
+    width: 13rem;
+    height: 11rem;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 3.3rem;
+    border-radius: 10px ;
+}
+
+.contact-box{
+    width: 40%;
+    height: 6rem;
+    backdrop-filter: blur(5px);
+    border: 2px dotted white;
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.contact-text{
+    width: 20rem;
+    height: 4rem;
+    /* border: 2px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.contact-button{
+    width: 8rem;
+    height: 2rem;
+    background-color: violet;
+    border-radius: 5px;
+    border: none;
+    /* margin-top: 2rem; */
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.sector-5{
+    width: 100%;
+    height: 33rem;
+    border: 2px solid red ;
+    background-color: rgb(210, 231, 238);
+}
+
+.user{
+    width: 85%;
+    height: 20rem;
+    border: 2px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-divs{
+    width: 16rem;
+    height: 20rem;
+    border: 2px solid black;
+}
+
+.user-card{
+    width: 16rem;
+    height: 9rem;
+    border: 2px solid blue;
+    padding-top: 1rem;
+    margin-top: 3rem;
+    /* background-color: white; */
+    /* position: relative; */
+}
+
+
+.user-word{
+    width: 15rem;
+    height: 8rem;
+    /* border: 2px solid blue; */
+    background-color: white;
+    position: absolute;
+    left: 11.9rem;
+    border-radius: 5px;
+}
+
+.user-circle{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    background: linear-gradient(to right, lightgreen, rgb(7, 177, 177) );
+    position: relative;
+    top: -1rem;
+    left: 0rem;
+}
